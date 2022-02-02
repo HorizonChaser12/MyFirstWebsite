@@ -1,0 +1,115 @@
+/* css reset  */
+
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 12px;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 20px;
+}
+
+.left img {
+    width: 450px;
+    height: 75px;
+}
+
+.mid {
+    display: block;
+    margin: 12px auto;
+    width: 33%;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 75px;
+    top: 12px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 24px 14px;
+    /* font-family: 'Zen Kurenaido', sans-serif; */
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 7px 4px;
+    background-color: rgb(135, 150, 168);
+    color: snow;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    /* width: 190px; 
+            height: 70px;*/
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(238, 169, 252);
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 162px 530px;
+    padding: 50px 170px;
+    width: 34%;
+    border-radius: 35px;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.form-group input {
+    padding: 4px 2px;
+    margin: 6px 4px;
+    border-radius: 18px;
+    text-align: center;
+    display: block;
+    width: 77%;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(230, 151, 250);
+}
+
+.container button {
+    margin: 6px 132px;
+    width: 39%;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    width: 515px;
+    color: rgb(238, 158, 205);
+}
