@@ -4,9 +4,20 @@ body {
     color: white;
     margin: 0px;
     padding: 0px;
+}
+
+header::before {
     background: url(back2.png);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
 }
 
 .left {
@@ -27,7 +38,7 @@ body {
 .mid {
     display: block;
     margin: 12px auto;
-    width: 33%;
+    width: 40%;
 }
 
 .right {
@@ -82,7 +93,7 @@ body {
 }
 
 .container {
-    margin: 162px 530px;
+    margin: -57px 525px;
     padding: 50px 170px;
     width: 34%;
     border-radius: 35px;
@@ -112,4 +123,29 @@ h1 {
     font-size: 40px;
     width: 515px;
     color: rgb(238, 158, 205);
+}
+
+h3 {
+    font-size: 4rem;
+    font-family: 'Space Mono', monospace;
+}
+
+section p {
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2em;
+}
+
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 3px 20px;
+    align-items: center;
+    justify-content: center;
 }
